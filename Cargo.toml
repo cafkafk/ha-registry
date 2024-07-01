@@ -20,7 +20,7 @@ aws-config = "1.5.1"
 aws-sdk-s3 = "1.36.0"
 axum = { version = "0.7.5", features = ["macros", "original-uri", "json"] }
 bytes = "1.6.0"
-clap = { version = "4.5.7", features = ["cargo"] }
+clap = { version = "4.5.8", features = ["cargo"] }
 form_urlencoded = "1.2.1"
 http-body-util = "0.1.0"
 hyper = { version = "1.2", features = ["client"] }
@@ -35,7 +35,7 @@ serde_norway = "0.9.36"
 tokio = { version = "1.36.0", features = ["macros", "rt-multi-thread", "sync"] }
 
 [build-dependencies]
-clap = { version = "4.5.7", features = ["cargo"] }
+clap = { version = "4.5.8", features = ["cargo"] }
 clap_complete = "4"
 clap_mangen = "0.2.21"
 
